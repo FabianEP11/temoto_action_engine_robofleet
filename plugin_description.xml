@@ -1,0 +1,74 @@
+<library path="lib/libtemoto_action_engine_robofleet">
+  <class type="temoto_action_engine_robofleet::BroadcastStartUmrfGraphPublishHandler"
+         base_class_type="robofleet_client::ROSPublishHandler">
+    <description>
+      Publish handler for temoto_action_engine/BroadcastStartUmrfGraph.
+    </description>
+  </class>
+  <class type="temoto_action_engine_robofleet::BroadcastStartUmrfGraphSubscribeHandler"
+         base_class_type="robofleet_client::ROSSubscribeHandler">
+    <description>
+      Subscribe handler for temoto_action_engine/BroadcastStartUmrfGraph.
+    </description>
+  </class>
+  <class type="temoto_action_engine_robofleet::BroadcastStopUmrfGraphPublishHandler"
+         base_class_type="robofleet_client::ROSPublishHandler">
+    <description>
+      Publish handler for temoto_action_engine/BroadcastStopUmrfGraph.
+    </description>
+  </class>
+  <class type="temoto_action_engine_robofleet::BroadcastStopUmrfGraphSubscribeHandler"
+         base_class_type="robofleet_client::ROSSubscribeHandler">
+    <description>
+      Subscribe handler for temoto_action_engine/BroadcastStopUmrfGraph.
+    </description>
+  </class>
+  <class type="temoto_action_engine_robofleet::UmrfGraphDiffPublishHandler"
+         base_class_type="robofleet_client::ROSPublishHandler">
+    <description>
+      Publish handler for temoto_action_engine/UmrfGraphDiff.
+    </description>
+  </class>
+  <class type="temoto_action_engine_robofleet::UmrfGraphDiffSubscribeHandler"
+         base_class_type="robofleet_client::ROSSubscribeHandler">
+    <description>
+      Subscribe handler for temoto_action_engine/UmrfGraphDiff.
+    </description>
+  </class>
+  <class type="temoto_action_engine_robofleet::StopUmrfGraphSrvInHandler"
+         base_class_type="robofleet_client::ROSSrvInHandler">
+    <description>
+      In handler for temoto_action_engine/StopUmrfGraph.
+    </description>
+  </class>
+  <class type="temoto_action_engine_robofleet::StopUmrfGraphSrvOutHandler"
+         base_class_type="robofleet_client::ROSSrvOutHandler">
+    <description>
+      Out handler for temoto_action_engine/StopUmrfGraph.
+    </description>
+  </class>
+  <class type="temoto_action_engine_robofleet::GetUmrfGraphsSrvInHandler"
+         base_class_type="robofleet_client::ROSSrvInHandler">
+    <description>
+      In handler for temoto_action_engine/GetUmrfGraphs.
+    </description>
+  </class>
+  <class type="temoto_action_engine_robofleet::GetUmrfGraphsSrvOutHandler"
+         base_class_type="robofleet_client::ROSSrvOutHandler">
+    <description>
+      Out handler for temoto_action_engine/GetUmrfGraphs.
+    </description>
+  </class>
+  <class type="temoto_action_engine_robofleet::StartUmrfGraphSrvInHandler"
+         base_class_type="robofleet_client::ROSSrvInHandler">
+    <description>
+      In handler for temoto_action_engine/StartUmrfGraph.
+    </description>
+  </class>
+  <class type="temoto_action_engine_robofleet::StartUmrfGraphSrvOutHandler"
+         base_class_type="robofleet_client::ROSSrvOutHandler">
+    <description>
+      Out handler for temoto_action_engine/StartUmrfGraph.
+    </description>
+  </class>
+</library>

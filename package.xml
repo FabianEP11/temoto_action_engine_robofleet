@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>temoto_action_engine_robofleet</name>
+  <version>0.0.0</version>
+  <description>Plugins that exposes temoto_action_engine to robofleet_client.</description>
+
+  <maintainer email='nobody@nowhere.org'>None. This is a generated package.</maintainer>
+
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>robofleet_client</depend>
+  <depend>temoto_action_engine</depend>
+
+
+  <export>
+    <robofleet_client plugin="${prefix}/plugin_description.xml"/>
+  </export>
+</package>
